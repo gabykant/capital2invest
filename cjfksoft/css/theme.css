@@ -1,0 +1,179 @@
+/*!
+    Created on : Feb 2, 2015, 11:18:45 AM
+    Author     : Kwaye Kant - K SOFT SOLUTIONS (www.ksoft-solutions.com)
+*/
+
+@import url("font-awesome.min.css");
+@import url("bootstrap.min.css");
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Signika);
+
+
+/*  Main board  - Start */
+body { 
+    margin: 0;
+    line-height: 1;
+    background-color: rgb(249, 249, 249);
+}
+h1, h2, h3, h4, h5, h6 {
+    /*font-family: Monotype Corsiva, serif;*/
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    background: url(../images/bg.jpg) no-repeat fixed;
+    background-size:cover;
+    border-bottom: 10px solid #f0f0f0;
+}
+.container {
+    margin: 0 5%;
+    width: auto;
+    max-height:550px;
+}
+.navbar-default { 
+    background: #2e2e2e; 
+    padding-bottom: 10px; 
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navbar-default, .navbar-collapse { border-color: transparent;}
+.navbar-collapse { margin-top: 10px;}
+.navbar-top-right { 
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 0 30px;
+    -webkit-box-shadow: 0 0 0 2px #ccc;
+    box-shadow: 0 0 0 2px #ccc;
+}
+.navbar-brand > img { max-width: 80px; max-height: 70px;}
+.navbar-brand {padding: 5px 15px;}
+.navbar-fixed-top { right: 5%; left: 5%;}
+.top-title {
+    margin: 17% auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+.banner-text {
+/*width: 70%;*/
+/*margin: 0 auto;*/
+padding: 20px 0px;
+}
+.banner-text h2 {
+color: #FFF;
+font-size: 90px;
+font-weight: 900;
+font-style: italic;
+line-height: 1.5;
+text-shadow: 1px 1px 10px #3D3D3D;
+}
+ul.nav li a {
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 600;
+text-decoration: none;
+color: #fff;
+display: block;
+}
+p.under-tagline {
+color: #FFF;
+font-size: 18px;
+line-height: 10px;
+font-weight: 300;
+margin-top: 25px;
+}
+.under-tagline > a {
+    padding: 10px 20px;
+    -webkit-box-shadow: 0px 0px 0px 2px green;
+    font-size: 22px;
+    text-shadow: 1px 1px 10px #ABABAB;
+}
+#propos {
+    width: 100%;
+    /*background: url(../images/texture-bg.png) repeat;*/
+    
+    margin-left: -5%;
+    margin-right: -5%;
+}
+#propos h1 small {
+    padding: 10px 35px;
+    /*font-family: 'Open Sans', sans-serif;*/
+font-family: GibsonLightRegular, Arial, sans-serif;
+font-weight: 200;
+font-size: 1.05em;
+line-height: 1.7;
+/*color: rgb(34, 34, 34);*/
+text-rendering: optimizelegibility;
+margin: 10px 0px 20px;
+}
+.about_title, .about_box, .head_title {
+    margin: 10px 10%;
+}
+.head_title h1 small{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 200; 
+}
+.about_box {
+    min-height: 300px;
+}
+.about_box_items { 
+    background: url(../images/texture-bg.png) repeat;
+    padding: 10px;
+    border-radius: 2px;
+    line-height: 2em;
+    text-align:justify;
+    font-size: 14px;
+    text-shadow: 1px 1px 0 #fff;
+    background: #fff;
+    background: -moz-linear-gradient(top,#fff 0,#e0e0e0 50%,#fff 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(50%,#e0e0e0),color-stop(100%,#fff));
+    background: -webkit-linear-gradient(top,#fff 0,#e0e0e0 50%,#fff 100%);
+    background: -o-linear-gradient(top,#fff 0,#e0e0e0 50%,#fff 100%);
+    background: -ms-linear-gradient(top,#fff 0,#e0e0e0 50%,#fff 100%);
+    background: linear-gradient(top,#fff 0,#e0e0e0 50%,#fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#ffffff',GradientType=0);
+}
+
+#how_it_works {
+    background: #FFF;
+    /*padding-left: -15px;*/
+    height: 400px;
+    width: auto;
+    margin: 40px -5%;
+}
+
+.socialmedia li, .infoline_li li {
+    list-style: none;
+    padding: 10px 5px;
+    display: inline-block;
+}
+
+footer {
+    height: 100px;
+    border-top: 1px solid #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 11px;
+}
+.navbar-fixed-top { background: #fff;}
+.hidme {
+    margin-top: 20px;
+}
+/*  Main board - End */
+
+.info-panel, .gradient-control {
+background: #fff;
+border: 1px solid #ddd;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-moz-box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+-o-box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+}

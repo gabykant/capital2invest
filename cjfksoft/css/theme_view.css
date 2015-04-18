@@ -1,0 +1,154 @@
+/*!
+    Created on : Feb 2, 2015, 11:18:45 AM
+    Author     : Kwaye Kant - K SOFT SOLUTIONS (www.ksoft-solutions.com)
+*/
+
+@import url("font-awesome.min.css");
+@import url("bootstrap.min.css");
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Signika);
+
+h1, h2, h3, h4, h5, h6 {
+    /*font-family: Monotype Corsiva, serif;*/
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    margin: 0;
+    width: auto;
+    padding: 0;
+}
+header {
+    min-height: 50px;
+    padding: 10px;
+    background: url(../images/texture-bg.png) repeat-x fixed;
+}
+.header_flow {
+    margin: 10px 10%;
+    width: auto;
+}
+.navbar-default {
+    background: none;
+}
+.flow_logo_text h3{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+    color: #CCC;
+    line-height: 0.5;
+}
+.logo {
+    width: 50px; height: 50px;
+}
+.flow_logo {
+    width: 200px;
+}
+.search-box {
+    margin: 20px 10%;
+    width: auto;
+    border-radius: 5px;
+    background: #d9edf7;
+    min-height: 50px;
+    padding: 30px;
+}
+#input_search { min-width: 700px;}
+.container-body {
+    margin: 20px 10%;
+    width: auto;
+}
+.container-body .display-article {
+    border: 1px solid #f0f0f0;
+}
+.acidjs-shopping-cart-dropdown-inner-wrapper {
+    position: absolute;
+    width: 100%;
+}
+.my_shopping_box {
+    
+}
+.item-box {
+    border: 2px solid #f0f0f0;
+    border-radius: 3px;
+    height: 200px;
+}
+#items ul li {
+    display: inline-table;
+    list-style: none;
+    margin: 5px;
+    max-width: 200px;
+}
+.shopping-board {
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #2a6496;
+    /*height: 300px;*/
+}
+.shopping-board .t-header {
+    height: 30px;
+    background: #2d004e;
+    color: #FFF;
+    padding: 5px
+}
+.shopping-board .t-footer {
+    border-top: 1px solid #f0f0f0;
+    margin-top: 10px;
+    padding: 10px;
+}
+#total-price { font-size: 9px; font-weight: bold;}
+#shopping-cart-items ul { padding: 0;}
+#shopping-cart-items ul li#pitem {
+    list-style: none;
+    padding: 5px;
+    width: 100%;
+    border-bottom: 1px dotted #f0f0f0;
+    font-size: 9px;
+    color: #4cae4c;
+    font-weight: bold;
+}
+ul#inItemLi li {
+    display: inline-table;
+    list-style: none;
+}
+#box-recap-items {
+    border-radius: 8px;
+    border: 10px #2a6496 solid;
+}
+footer{
+    height: 100px;
+    border-top: 1px solid #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 11px;
+}
+.box-search-item{
+    padding: 20px;
+    background: #d9edf7;
+    border-radius: 5px;
+    border: 1px #d9edf7 solid;
+    margin-bottom: 20px;
+}
+.box-search-item .form-controlk {
+    width:100%;
+}
+ul.socialmedia li {
+    display: inline-table;
+    list-style: none;
+}
+input[type="text"], input[type="password"], select {
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 5px;
+width: 200px;
+-webkit-box-shadow: inset 0 1px 1px 1px #EDE8FF;
+box-shadow: inset 0 1px 1px 1px #EDE8FF;
+}
+label {
+width: 250px;
+text-align: left;
+}
+#infoMessage {
+    color: red;
+    font-weight: bold;
+}

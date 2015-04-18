@@ -1,0 +1,41 @@
+/* 
+    Created on : 26 janv. 2015, 15:17:50
+    Author     : Gabykant
+*/
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+color: #2e2e2e;
+background-color: #f0f0f0;
+border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+}
+
+.navbar-inverse {
+background-color: #2e2e2e;
+border-color: #2e2e2e;
+}
+
+@media (min-width: 768px){
+#wrapper {
+padding-left: 0;
+padding-top: 0;
+}}
+
+
+.box-search-user {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.nav-tabs {
+background: peru;
+padding: 15px 25px 0px;
+border-radius: 5px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+ol { margin-top: 20px;}
+ol > li { display: inline; list-style: none; padding: 20px;}
