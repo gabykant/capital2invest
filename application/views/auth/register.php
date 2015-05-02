@@ -16,6 +16,10 @@
             <?php echo form_input($first_name);?>
       </p>
       <p>
+            <?php echo lang('edit_user_fname_label', 'last_name');?>
+            <?php echo form_input($last_name);?>
+      </p>
+      <p>
             <?php echo lang('create_user_pays', 'pays');?>
             <?php echo form_input($pays);?>
       </p>
