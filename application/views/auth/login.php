@@ -10,6 +10,11 @@
                 <?php echo lang('login_identity_label', 'identity');?>
                 <?php echo form_input($identity, "", '');?>
             </p>
+			<p>
+				<label for="email">
+				<?php echo lang('email_label', 'email');?></label>
+				<?php echo form_input($email, "", '');?>
+			</p>
             <p>
                 <?php echo lang('login_password_label', 'password');?>
                 <?php echo form_input($password);?>

@@ -30,6 +30,7 @@ $lang['login_password_label']  = 'Mot de passe :';
 $lang['login_remember_label']  = 'Rester connecté :';
 $lang['login_submit_btn']      = 'Se connecter';
 $lang['login_forgot_password'] = 'Mot de passe oublié ?';
+$lang['email_label'] ='Mon adresse email';
 
 // Index
 $lang['index_heading']           = 'Utilisateurs';

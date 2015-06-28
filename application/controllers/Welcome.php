@@ -20,6 +20,12 @@ class Welcome extends CI_Controller {
                         'type' => 'text',
                         'value' => $this->form_validation->set_value('identity'),
                 );
+		$this->data['email'] = array(
+			'id' => 'email',
+			'type' => 'email',
+			'name' => 'email',
+			'class' => 'form-control'
+		);
                 $this->data['password'] = array('name' => 'password',
                         'id' => 'password',
                         'type' => 'password',
